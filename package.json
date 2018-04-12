@@ -1,0 +1,30 @@
+{
+  "name": "talk-template-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vm-mount": "^1.0.1",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccbabi/talk-template-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccbabi/talk-template-vue/issues"
+  },
+  "homepage": "https://github.com/ccbabi/talk-template-vue#readme",
+  "talk": {
+    "alias": {
+      "vue$": "vue/dist/vue.esm.js"
+    }
+  }
+}
