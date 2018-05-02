@@ -1,14 +1,14 @@
 {
   "name": "talk-template-vue",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babel-preset-stage-0": "^6.24.1",
     "vm-mount": "^1.0.1"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
