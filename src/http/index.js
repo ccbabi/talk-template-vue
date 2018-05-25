@@ -1,4 +1,9 @@
-import Vue from 'vue'
-import request from './request'
+import * as http from './http'
 
-Vue.use(request)
+export const $http = http
+
+export default {
+  install (Vue) {
+    Vue.prototype.$http = http
+  }
+}
