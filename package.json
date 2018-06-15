@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios-add-jsonp": "^0.1.0",
     "vm-mount": "^1.0.1",
     "vue": "^2.5.16"
   },
